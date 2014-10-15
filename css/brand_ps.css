@@ -1015,7 +1015,7 @@ button.close {
     opacity: 0.4;
 }
 
-/* top 5list*/
+/* top5 list*/
 .top_list_inner li {
 	border-bottom: 1px dotted #ded8e1;
     margin: 0 0 20px;
@@ -1050,6 +1050,48 @@ button.close {
 	border:none;
 	padding:0;
 	margin:0;
+}
+/* p with list */
+.paragraph_list .span_5{
+	background:#dfe4e8;
+}
+.list_inner{
+	height:80%;
+	overflow-y:scroll;
+}
+.list_inner li {
+	border-bottom: 1px solid #fff;
+	position: relative;
+	cursor:pointer;
+	transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+}
+.list_inner li:hover{
+	background:#009966;
+}
+.list_inner div {
+	border-bottom: 1px solid #ccc;
+	padding: 15px 25px 15px 15%;
+}
+.list_inner span.fontcon-pdf {
+	position: absolute;
+	font-size: 40px;
+	top: 15px;
+	left: 25px;
+}
+.list_inner div p {
+	font-family: regular, arial;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size:17px;
+}
+.list_inner div span {
+	font-size: 15px;
+	color: #767676;
+}
+.list_inner li:hover div p, .list_inner li:hover div span{
+	color:#fff;
 }
 
 /* Legal Block */
@@ -1197,7 +1239,7 @@ button.close {
  font-size: 18px;
 }
  .block_container p, .legal_block .block_inner p, .lnk_primary.fontcon-faq-active {
- font-size: 12px;
+ font-size: 13px;
 }
  .block_container .block_image {
  display: block;
@@ -1330,7 +1372,21 @@ button.close {
     line-height: 31px;
     width: 30px;
 }	
-/* top5 list */
+/* p with list */
+.list_inner span.fontcon-pdf {
+	font-size: 35px;
+}
+.list_inner div {
+	padding: 15px 25px 15px 19%;
+}
+.list_inner div p{
+	font-size:15px;
+}
+.list_inner div span {
+	font-size: 13px;
+}
+
+/* video block */
 .hostedVideoContainer > div{
 	width: 100%!important;
 	margin: 0;
